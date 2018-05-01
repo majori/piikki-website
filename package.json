@@ -25,6 +25,7 @@
     "http-server": "^0.11.1"
   },
   "devDependencies": {
+    "node-sass": "^4.9.0",
     "parcel-bundler": "^1.7.1",
     "pug": "^2.0.3"
   }
