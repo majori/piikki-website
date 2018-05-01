@@ -1,0 +1,31 @@
+{
+  "name": "piikki-website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "http-server --no-dotfiles --silent dist",
+    "dev": "parcel ./src/views/pages/index.pug --open --no-cache --no-hmr",
+    "build": "parcel build ./src/views/pages/index.pug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majori/piikki-website.git"
+  },
+  "keywords": [
+    "piikki"
+  ],
+  "author": "Antti Kivimäki <antti.kivimaki@futurice.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/majori/piikki-website/issues"
+  },
+  "homepage": "https://github.com/majori/piikki-website#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.7.1",
+    "pug": "^2.0.3"
+  }
+}
