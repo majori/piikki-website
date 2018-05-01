@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "http-server ./dist --no-dotfiles --silent",
-    "dev": "parcel ./src/views/pages/index.pug --open --no-cache --no-hmr",
+    "dev": "parcel ./src/views/pages/index.pug --open --no-cache",
     "build": "parcel build ./src/views/pages/index.pug",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
