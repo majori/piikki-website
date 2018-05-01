@@ -32,11 +32,11 @@
 
 @media only screen and (max-width: 600px) {
   .main-card {
-      max-height: none;
-      grid-template-columns: 1fr;
+    max-height: none;
+    grid-template-columns: 1fr;
 
-      & > div {
-        text-align: center;
+    & > div {
+      text-align: center;
     }
   }
 }
