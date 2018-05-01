@@ -10,34 +10,3 @@ body {
   padding: 0;
 }
 
-.main-container {
-  display: flex;
-  align-items: center;
-  height: 100%;
-
-  h1 {
-    color: var(--hilight-color);
-    font-size: 88px;
-    font-weight: 900;
-    margin: 0 0 10px 0;
-  }
-
-  .tagline {
-    font-size: 28px;
-    padding-left: 4px;
-  }
-}
-
-.main-card {
-    max-height: 356px;
-    display: grid;
-    grid-template-columns: 356px 1fr;
-    grid-gap: 10px;
-    margin: auto;
-
-  & > div {
-    display: flex;
-    align-items: center;
-    height: 100%;
-  }
-}
