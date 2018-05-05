@@ -2,17 +2,20 @@
   display: flex;
   align-items: center;
   height: 100%;
+  margin-top: -20px;
 
   h1 {
     color: var(--hilight-color);
     font-size: 88px;
     font-weight: 900;
-    margin: 0 0 10px 0;
+    letter-spacing: -2px;
+    margin: 0 0 5px 0;
   }
 
   .tagline {
     font-size: 28px;
     padding-left: 4px;
+    letter-spacing: -2px;
   }
 }
 
@@ -20,6 +23,7 @@
   max-height: 356px;
   display: grid;
   grid-template-columns: 356px 1fr;
+  grid-template-rows: 356px 50px;
   grid-gap: 10px;
   margin: auto;
 
@@ -27,6 +31,26 @@
     display: flex;
     align-items: center;
     height: 100%;
+  }
+
+  & > div.title div.btns {
+    margin-top: 65px;
+
+    & > a {
+      text-decoration: none;
+      margin: 20px 24px 20px 0px;
+      background: #3c1a2a;
+      color: #987685;
+      padding: 14px;
+      transition: 0.66s all;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-size: 0.9em;
+
+      &:hover {
+        color: #fff;
+      }
+    }
   }
 }
 
