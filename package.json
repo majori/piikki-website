@@ -5,7 +5,8 @@
   "scripts": {
     "start": "http-server ./dist --no-dotfiles --silent",
     "dev": "parcel ./src/views/pages/index.pug --open --no-cache",
-    "build": "parcel build ./src/views/pages/index.pug"
+    "build": "parcel build ./src/views/pages/index.pug",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "repository": {
     "type": "git",
